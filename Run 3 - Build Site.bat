@@ -1,0 +1,2 @@
+RMDIR public /S
+hugo
