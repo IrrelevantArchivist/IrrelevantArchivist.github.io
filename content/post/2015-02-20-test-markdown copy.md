@@ -82,3 +82,278 @@ ___
 When Arcane Archers would start with two options, they would eventually learn six out of the eight Arcane Shots. Starting with three, they would learn seven out of eight, and it seemed silly that they could learn all but one, so I decided that they would learn all eight at level 18. If you think that gives them too many options, I will remind you that wizards can cast Wish at this level, which grants them access to any spell of 8th level or lower, and so I think the humble Fighter is fine to learn all eight of the Arcane Shots.
 
 ### Level 7
+___
+Original Feature: **Magic Arrow**
+
+At 7th level, you gain the ability to infuse arrows with magic. Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. The magic fades from the arrow immediately after it hits or misses its target.
+___
+
+We have seen features like this on several classes and subclasses, such as Monk and Circle of the Moon Druid. It allows a character to deal full damage to a creature when that creature might otherwise resist the non magical damage. I see no reason to change it, except to allow it to work with any ammunition.
+
+___
+Revised Feature: **Magical Ammunition**
+
+At 7th level, you gain the ability to infuse <u>ammunition with magic</u>. Whenever you fire nonmagical <u>ammunition from a simple or martial ranged weapon</u>, you can make it magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. The magic fades from the <u>ammunition</u> immediately after it hits or misses its target.
+___
+
+___
+Original Feature: **Curving Shot**
+
+At 7th level, you learn how to direct an errant arrow toward a new target. When you make an attack roll with a magic arrow and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target.
+___
+
+The wording of this feature is unnecessarily specific. Why say ‘an attack roll with a magic arrow’ when the previous feature causes all of your arrows to be considered magical? In my revision, I will simplify the wording to allow it to work with attacks using any ranged weapon.
+___
+Revised Feature: **Curving Shot**
+
+At 7th level, you learn how to direct an errant <u>attack</u> toward a new target. When you make an attack roll with a <u>ranged weapon</u> and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target.
+___
+
+### Level 10
+
+At level 10, the original Arcane Archer doesn't have any actual subclass features. Instead, Arcane Shot scales. Not by much, however; all you get is one additional Arcane Shot option known. Instead, the next actual class feature they get comes at level 15.
+___
+Original Feature: **Ever-Ready Shot**
+
+Starting at 15th level, your magical archery is available whenever battle starts. If you roll initiative and have no uses of Arcane Shot remaining, you regain one use of it.
+___
+
+This is another kind of feature that is fairly common at high levels in classes and subclasses. Battlemaster’s level 15 feature, Relentless, grants one superiority dice when the fighter starts initiative with none. Bards and Monks each have a capstone that grants a class resource when they roll initiative with none. 
+
+However, I generally have a low opinion of these features. Once characters get past the first few levels of play, they rarely roll initiative with no resources, and at 20th level that happens pretty much never. However, characters might still roll initiative while having spent some but not all of their resources, and so with some alteration Ever-Ready Shot can still be useful. I am basing the revision to Ever-Ready Shot off of Superior Bardic Inspiration and Perfect Focus, the old capstones to Bard and Monk that have been revised for the 2024 Player’s Handbook. Both of those features now work when the character is at low resources but not necessarily zero resources, and have each been moved to earlier levels.
+
+Given that Arcane Archer doesn’t have a defined level 10 subclass feature, and Ever-Ready Shot less of a *power* increase than a *reliability* increase, I decided to move it from level 15 to level 10.
+___
+Revised Feature: **Ever-Ready Shot**
+
+Starting at 10th level, your magical attacks are available whenever battle starts. If you roll initiative and have fewer than two uses of Arcane Shot remaining, you regain uses until you have two.
+___
+
+That’s all the existing Arcane Archer features! Time to create brand new features for level 15 and 18.
+
+### Level 15
+
+The feature I came up with for level 15 is inspired by one of the magic arrow items from Baldur’s Gate 3. (Honestly, the whole game has so many cool magic arrows that you could feel like an Arcane Archer while playing one of the base game subclasses). That item is the Arrow of Transposition. Fire it, and you teleport to where it has landed. That sort of blend of magic and archery feels right on them for the Arcane Archer.
+
+___
+New Feature: **Repositioning Shot**
+
+Starting at 15th level, when you take the Attack action on your turn, you can replace two of the attacks with a use of Repositioning Shot. When you do, you teleport up to 60 feet to an unoccupied space you can see that isn’t behind total cover, provided you have a ranged weapon in hand. You have a number of Repositioning Shots equal to your proficiency bonus, and regain all uses when you finish a long rest.
+___
+
+### Level 18
+
+At level 18, other classes already have their 9th level spells. Wizards are casting Wish, Clerics are healing the party for 700 hit points with Mass Heal, and Druids are turning into angels or dragons with Shapechange. In terms of power level, we have a lot of leeway when comparing to other classes. 
+With Arcane Archer, throughout the lower levels we’ve constantly had to be mindful of how many Arcane Shot uses we had remaining. Ever-Ready Shot and the additional uses at levels 7 and 15 have helped with that, but nonetheless there are many times when an Arcane Archer will have run out of Arcane Shots entirely. Now, at 18th level, that can become a problem of the past with Effortless Shot.
+
+___
+New Feature: **Effortless Shot**
+
+Starting at 18th level, you may use Arcane Shot twice per turn instead of once. The first time you use Arcane Shot each turn, it doesn’t expend one of your uses of Arcane Shot.
+___
+
+## Arcane Shot Option Revision
+
+Now that we’ve finished the class features, it is time to revise the balance of the individual Arcane Shots.
+
+
+The first thing I’m revisiting is the additional damage (2d6) that many of the shots deal when they hit. Of the 2014 Fighter subclasses, the Battlemaster, the Arcane Archer, and the Psi Knight each have a subclass resource (superiority dice, Arcane Shot uses, and Psionic Energy dice, or ‘psi dice’) that allows them to add damage to an attack, usually with extra effects. If each subclass uses its resources purely for damage against a single target, here are the results of the damage totals. (Assume the Psi Knight has a +2 Intelligence modifier).
+
+There are other factors to each subclass besides damage, such as what the additional effects are, what ability score the DC for the additional feature is based on (Battlemaster uses Strength or Dexterity, the other two use Intelligence), how often the resource can be used (Battlemaster can use dice on any attack, the other two are limited to once per turn), or what else the resource can be used for. However, even greatly simplified, it should be obvious that the Arcane Archer is always behind on damage from this metric.
+
+Average damage of subclass resouces at different levels
+| Level: | B.M. | A.A. | P.K. | A.A., add uses | A.A, add uses and scaling |
+| :------ | :---| :--- | :--- | :--- | :--- |
+| 3rd level: | 18 (4d8) | 14 (4d6) | 22 (4d6+8) | 21 (6d6) | 21 (6d6) |
+| 7th level: | 22 (5d8) | 14 (4d6) | 39 (6d8+12) | 28 (8d6) | 28 (8d6) |
+| 10th level: | 27 (5d10) | 14 (4d6) | 52 (8d8+16) | 28 (8d6) | 42 (12d6) |
+| 15th level: | 33 (6d10) | 14 (4d6) | 75 (10d10+20) | 35 (10d6) | 52 (15d6) |
+| 18th level: | 39 (6d12) | 28 (8d6) | 102 (12d12+24) | 70 (20d6) | 70 (20d6) |
+
+After adding the extra uses our revision granted the Arcane Archer, the damage total improved but still eventually fell behind the Battlemaster, and way behind the Psi Knight.
+Finally, after adding the damage from scaling the dice at level 18, with an intermediate step at level 10, the damage curve fell to a satisfactory place between Battlemaster and Psi Knight. The reason I wanted the total damage higher than Battlemaster, is because the Battlemaster has the advantage of being able to use all of its Superiority dice resources in one round, and doesn’t have to rely on a secondary ability score for DC. The reason I wanted the damage to remain less than the Psy Knight is because the Arcane Archer has more varied, and more potent, secondary effects besides damage.
+
+Next, the details of each individual shot!
+
+### Banishing Arrow
+
+___
+Original Wording:
+
+You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. The creature hit by the arrow must also succeed on a Charisma saving throw or be banished. While banished in this way, the target’s speed is 0, and it is incapacitated. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.
+
+After you reach 18th level in this class, a target also takes 2d6 force damage when the arrow hits it.
+___
+
+Banishing Shot is pretty good. It duplicates, for one round, the Banishment spell, which is a 4th-level spell. If the target fails, it automatically breaks their concentration and skips their turn. I don’t think this one actually needs adjustment, except that the target takes 1d6 force damage when hit if the fighter is 10th level or higher, before increasing to 2d6 at 18th. While Banishment is a higher-level spell than what the rest of the Arcane Shot options compare to, by lasting only 1 round it loses the main advantage of the Banishment spell: completely taking a creature out of the fight for multiple rounds.
+
+___
+Revised Wording:
+
+You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild, or another plane of your choosing. The creature hit by the arrow must also succeed on a Charisma saving throw or be banished. While banished in this way, its speed is 0, and it is incapacitated. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.
+
+<u>After you reach 10th level in this class, a target also takes 1d6 force damage when the arrow hits it, and</u> once you reach 18th level in this class, the extra damage increases to 2d6.
+___
+
+### Beguiling Arrow
+___
+Original Wording:
+
+Your enchantment magic causes this arrow to temporarily beguile its target. The creature hit by the arrow takes an extra 2d6 psychic damage, and choose one of your allies within 30 feet of the target. The target must succeed on a Wisdom saving throw, or it is charmed by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the charmed target, deals damage to it, or forces it to make a saving throw.
+
+The psychic damage increases to 4d6 when you reach 18th level in this class.
+___
+
+Beguiling Arrow is pretty bad. Wisdom saves are one of the more commonly resisted saving throws, and many creatures are straight-up immune to being charmed. In addition, even if the target fails the saving throw, nothing stops them from simply attacking one of your other allies, or even you.
+
+Let’s look at some other single-target enchantment spells for ideas about what else this arrow could do. Since we start at level 3, I’ll look at 2nd-level spells, which first become available at level 3. As it turns out, there is a single-target, one-round, 2nd-level enchantment spell: *Tasha’s Mind Whip*! If we base our new Beguiling Shot on this spell, many of our problems our solved: the saving throw becomes Intelligence, which monsters tend to be either pretty bad or pretty good at, and immunity to charm doesn’t do anything against it. We will adjust the damage from 3d6 psychic to 2d6 psychic to bring it in line with our other options.
+
+___
+Revised Wording:
+
+Your enchantment magic causes this arrow to temporarily beguile its target. The creature hit by the arrow takes an extra 2d6 psychic damage, and <u>must make an Intelligence saving throw. On a failed save, the creature can’t take a reaction until the end of its next turn, and on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, a creature suffers no additional effect.
+</u>
+The psychic damage increases to <u>3d6 when you reach 10th level in this class, and 4d6 once you reach 18th level in this class.</u>
+___
+
+### Bursting Arrow
+
+___
+Original Wording:
+
+You imbue your arrow with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the arrow hits the creature, the target and all other creatures within 10 feet of it take 2d6 force damage each.
+
+The force damage increases to 4d6 when you reach 18th level in this class.
+___
+
+Bursting Arrow is… fine. The damage isn’t great, but there is no saving throw and the damage type is very reliable. None of the options from the other subclasses we are comparing to have an AOE effect to reference, so let’s calculate the total damage the arrow will usually deal. Based on the Targets in Areas of Effect table, a 10-foot radius will on average be able to hit two creatures. We’ll assume that one of those creatures is the target of the arrow. That means that the arrow will deal a total of 4d6 damage. This does more damage than the other arrows, but it is multi-target, and since spreading a given amount of damage across multiple targets instead of one target is worse in D&D, I think it could use a buff. Let’s make it 3d6 to start- it will increase to 4d6 at level 10, and 5d6 at level 18. That means that at level 3 we are doing 6d6 split across multiple targets (plus the attack damage against one target). If this sounds high, compare it to Shatter, a 2nd-level spell that does, on average, 6d8 across two targets, and is accessible at level 3. 
+
+I considered adding a saving throw for half damage, but adding a saving throw to this effect would reduce its effectiveness compared to all the other Arcane shots (except Seeking and Piercing), which do their extra damage with no saving throw. Not to mention, it was originally printed without a saving throw, and I’m trying to change as little as possible while leaving things balanced.
+
+___
+Revised wording:
+
+You imbue your arrow with force energy drawn from the school of evocation. The arrow detonates after your attack. Immediately after the arrow hits the creature, the target and all other creatures within 10 feet of it take <u>3d6</u> force damage.
+
+The force damage increases to 4d6 when you reach <u>10th level in this class, and 5d6 when you reach 18th level in this class.</u>
+___
+
+### Enfeebling Arrow
+
+___
+Original wording:
+
+You weave necromantic magic into your arrow. The creature hit by the arrow takes an extra 2d6 necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn.
+
+The necrotic damage increases to 4d6 when you reach 18th level in this class.
+___
+
+Enfeebling Arrow is also not impressive. Monsters are most likely to have strong Constitution saves, necrotic damage is not super reliable, and the damage-halving from weapon attacks won’t always come up.
+
+That said, we probably don’t need to do a complete overhaul. Enfeebling Arrow has a similar effect to Ray of Enfeeblement, a 2nd-level spell, so the power level of the effect should be about right. One thing, though- Ray of Enfeeblement only allows a saving throw to end the effect, otherwise the damage-halving is automatic once you hit. So let’s remove the saving throw from Enfeebling Arrow, since the effect will last just one round anyway. I’m also going to allow the ability to affect all attacks, not just weapon attacks, to make it less situational. Since that leaves this still just a little lackluster in my eyes, I’ll add the anti-healing clause from Chill Touch.
+
+___
+Revised wording:
+
+You weave necromantic magic into your arrow. The creature hit by the arrow takes an extra 2d6 necrotic damage, <u>and the damage dealt by its attacks is halved until the start of your next turn. In addition, the target cannot regain hit points until the start of your next turn.</u>
+
+The necrotic damage increases to <u>3d6 when you reach 10th level in this class,</u> and 4d6 when you reach 18th level in this class.
+___
+
+### Grasping Arrow
+
+___
+Original wording:
+
+When this arrow strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The creature hit by the arrow takes an extra 2d6 poison damage, its speed is reduced by 10 feet, and it takes 2d6 slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.
+
+The poison damage and slashing damage both increase to 4d6 when you reach 18th level in this class.
+___
+
+Grasping Arrow is… weird. It is the only Arcane Shot option that lasts longer than one round, and unlike every other option except for the original Bursting Arrow, there is no saving throw to avoid the additional effect. This is probably because, by itself, Grasping Arrow isn’t that great. But when you start combining it with forced movement, it becomes quite good. As Chris from the YouTube channel Treantmonk’s Temple points out in his video about the Arcane Archer, forced movement has become very common in D&D, to the point where it isn’t that difficult for every character in the party to have some kind of forced movement. That’s potentially an extra 2d6 damage each turn. 
+
+To make matters worse, the affected monster must use their action to attempt to escape from the effect, as opposed to a repeated saving throw. This means that they have a chance of doing absolutely nothing on their turn if they attempt the check and fail.
+
+In light of these issues, we have a lot of changes to make. First step is to bring back the one-round duration and saving throw. Next, we’re going to replace the strange, exploitable damage-upon-movement clause and movement speed reduction with an alternate effect. Looking at other effect in D&D that summon vines and brambles, we often see the restrained condition occur, such as in the Entangle Spell, the Ensnaring Strike spell, and the Oath of Ancients Paladin’s ‘Nature’s Wrath’ option for Channel Divinity. Let’s use that.
+
+While we’re comparing this to Ensnaring Strike, let’s change the damage type to piercing. Poison is the most unreliable damage type, and I want all the Arcane Shots to be on a mostly even playing field.
+
+___
+Revised wording:
+
+When this arrow strikes its target, conjuration magic creates grasping brambles which wrap around the target. <u>The creature hit by the arrow takes an extra 2d6 piercing damage, and must make a Strength saving throw. On a failure, it is restrained until the start of your next turn.
+
+The extra damage increases to 3d6 when you reach 10th level in this class, and 4d6 when you reach 18th level in this class.</u>
+___
+
+### Piercing Arrow
+___
+Original wording:
+
+You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don’t make an attack roll for the attack. Instead, the arrow shoots forward in a line, which is 1 foot wide and 30 feet long, before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra 1d6 piercing damage. On a successful save, a target takes half as much damage.
+
+The piercing damage increases to 2d6 when you reach 18th level in this class.
+___
+
+While there aren’t any other effects that let you attack through cover in D&D 5e (even Psychic Lance is blocked by total cover), I expect that will be a use of this feature that comes up relatively rarely, so instead I am going to treat it like a normal Area of Effect. 
+
+According to the Targets in Areas of Effect table, a 30-foot line can be expected to include one creature. However, I expect that usually a player would only use a line if they could hit two or more creatures with it. Thus I am going to treat our Piercing Shot as being expected to include two creatures in the area. 
+
+Our new version of the other Arcane Shot option that hits an area, Bursting Shot, can be expected to deal 6d6 + one instance of weapon damage total. Piercing shot as written, deals 2d6 + two instances of arrow damage. Assuming ‘weapon damage’ is about 1d8+4 (average longbow damage dice + Dexterity at level 4), here are the expected damages for each, assuming all targets fail saving throws.
+
+Revised Bursting Shot: 21 (6d6) + 7 (1d8+4) = 28
+
+Original Piercing Shot: 7 (2d6) + 7 (1d8+4) + 7 (1d8+4) = 21
+
+Revised Piercing Shot: 14 (4d6) + 7 (1d8+4) + 7 (1d8+4) = 28
+
+By returning the original bonus damage to 2d6, we can put the two about on par. Bursting Shot will be easier to catch two creatures with, but Piercing Shot has the additional ability to go through cover.
+And as always, we are altering the damage progression to our new, revised one.
+
+___
+Revised wording:
+
+You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don’t make an attack roll for the attack. Instead, the arrow fires forward in a line, which is 1 foot wide and 30 feet long, before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra <u>2d6</u> piercing damage. On a successful save, a target takes half as much damage.
+
+The piercing damage increases to <u>3d6 when you reach 10th level in this class, and</u> 4d6 when you reach 18th level in this class.
+___
+
+### Seeking Arrow
+___
+Original wording:
+
+Using divination magic, you grant your arrow the ability to seek out a target. When you use this option, you don’t make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The arrow flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon’s range and there is a path large enough for the arrow to travel to the target, the target must make a Dexterity saving throw. Otherwise, the arrow disappears after traveling as far as it can. On a failed save, the target takes damage as if it were hit by the arrow, plus an extra 1d6 force damage, and you learn the target’s current location. On a successful save, the target takes half as much damage, and you don’t learn its location.
+
+The force damage increases to 2d6 when you reach 18th level in this class.
+___
+
+There aren't really any analogous effects to compare Seeking Arrow to in D&D 5e. Even spells like Psychic Lance that don’t require you to see their target don’t pass around corners. Given the lack of things to compare to, and this Arcane Shot’s excellent thematic concept, I am going to leave it alone except for one thing. I’m going to change the damage back to the normal progression, to place this Arcane Shot option on equal footing with the others.
+
+___
+Revised wording:
+
+Using divination magic, you grant your arrow the ability to seek out your target, allowing the arrow to curve and twist its path in search of its prey. When you use this option, you don’t make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The arrow flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon’s range and there is a path large enough for the arrow to travel to the target, the target must make a Dexterity saving throw. On a failed save, it takes damage as if it were hit by the arrow, plus an extra <u>2d6</u> force damage, and you learn the target’s current location. On a successful save, the target takes half as much damage, and you don’t learn its location.
+
+<u>The force damage increases to 3d6 when you reach 10th level in this class, and increases to 4d6 when you reach 18th level in this class.</u>
+___
+
+### Shadow Arrow
+___
+Original wording:
+
+You weave illusion magic into your arrow, causing it to occlude your foe’s vision with shadows. The creature hit by the arrow takes an extra 2d6 psychic damage, and it must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.
+
+The psychic damage increases to 4d6 when you reach 18th level in this class.
+___
+
+I don’t understand why this Arcane Shot doesn’t just give the blinded condition. Preventing a creature from seeing anything further than 5 feet away is quite similar to imposing blindness, and Imposing the blindness condition is about the power of a 2nd-level spell, which meets our power criteria. 
+
+___
+Revised wording:
+
+You weave illusion magic into your arrow, causing it to occlude your foe’s vision with shadows. The creature hit by the arrow takes an extra 2d6 psychic damage, and it must succeed on a Wisdom saving throw or be <u>blinded</u> until the start of your next turn.
+
+The psychic damage increases to <u>3d6 when you reach level 10 in this class,</u> and 4d6 when you reach 18th level in this class.
+___
+
+And we're done!
