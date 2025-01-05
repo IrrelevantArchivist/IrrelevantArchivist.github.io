@@ -48,24 +48,37 @@ My general philosophy for homebrew revisions of existing material is to not chan
 
 I’ll go feature by feature, displaying the old version and my revised one below. Here we go!
 
+### Level 3
+___
+Original Feature: **Arcane Archer Lore**
+
+At 3rd level, you learn magical theory or some of the secrets of nature — typical for practitioners of this elven martial tradition. You choose to gain proficiency in either the Arcana or the Nature skill, and you choose to learn either the *prestidigitation* or the *druidcraft* cantrip.
+___
+Well, not a very dramatic start. This is a ribbon feature (a feature intended to provide flavor or theming, but not major mechanical impact) and I see no reason to change it.
 
 
+___
+Original Feature: **Arcane Shot**
 
-Here's a useless table:
- 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
- 
+At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see “Arcane Shot Options” below).
 
-Here's a code chunk with syntax highlighting:
+Once per turn when you fire an arrow from a shortbow or longbow as part of the Attack action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits a creature, unless the option doesn’t involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest.
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
+You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter.
+___
+
+As far as I can tell, the only reason Arcane Archers are restricted to using bows is game tradition, or perhaps aesthetics. I think it would be quite cool to have an Arcane Crossbowman, or an Arcane Slinger, or even an Arcane Blowgun-user. In my revision, I change the wording to allow that, though I do specify ‘simple or melee ranged weapon’ to avoid allowing unforseen interactions with non-standard ranged weapons (such as Armorer Artificer’s Lightning Launcher).
+
+___
+Revised Feature: **Arcane Shot**
+
+At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn <u>three</u> Arcane Shot options of your choice (see “Arcane Shot Options” below).
+
+Once per turn when you <u>fire ammunition from a simple or martial ranged weapon</u> as part of the Attack action, you can apply one of your Arcane Shot options to that <u>ammunition</u>. You decide to use the option when the <u>ammunition</u> hits a creature, unless the option doesn’t involve an attack roll. You have <u>three</u> uses of this ability, and you regain all expended uses of it when you finish a short or long rest. <u>You gain an additional use of this ability at level 7, and another additional use at level 15.</u>
+
+You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, and 15th level. <u>At 18th level, you gain all remaining options. Each option also improves when you reach 10th level in this class, and again at 18th level.</u>
+___
+
+When Arcane Archers would start with two options, they would eventually learn six out of the eight Arcane Shots. Starting with three, they would learn seven out of eight, and it seemed silly that they could learn all but one, so I decided that they would learn all eight at level 18. If you think that gives them too many options, I will remind you that wizards can cast Wish at this level, which grants them access to any spell of 8th level or lower, and so I think the humble Fighter is fine to learn all eight of the Arcane Shots.
+
+### Level 7
